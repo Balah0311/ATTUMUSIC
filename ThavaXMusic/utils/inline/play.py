@@ -70,7 +70,7 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
           [
             InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url=f"https://t.me/Team_Hypers_Networks"),
-            InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", url=f"https://t.me/Idhayann"),             
+            InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", url=f"https://t.me/Chennai_vaassii"),             
         ],    
        
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -89,7 +89,7 @@ def stream_markup(_, chat_id):
         ],
          [
             InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url=f"https://t.me/Team_Hypers_Networks"),
-            InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", url=f"https://t.me/Idhayann"),             
+            InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", url=f"https://t.me/Chennai_vaassii"),             
         ],         
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
