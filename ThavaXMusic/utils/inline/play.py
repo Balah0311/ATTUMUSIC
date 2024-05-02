@@ -69,10 +69,8 @@ def stream_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
           [
-            InlineKeyboardButton(text="< 10", callback_data=f"ADMIN 1|{chat_id}"),
-            InlineKeyboardButton(text="<< 30", callback_data=f"ADMIN 3|{chat_id}"),
-            InlineKeyboardButton(text="> 10", callback_data=f"ADMIN 2|{chat_id}"),
-            InlineKeyboardButton(text=">> 30", callback_data=f"ADMIN 4|{chat_id}"),             
+            InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url=f"https://t.me/Team_Hypers_Networks"),
+            InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", url=f"https://t.me/Idhayann"),             
         ],    
        
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -90,10 +88,8 @@ def stream_markup(_, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
         ],
          [
-            InlineKeyboardButton(text="< 10", callback_data=f"ADMIN 1|{chat_id}"),
-            InlineKeyboardButton(text="<< 30", callback_data=f"ADMIN 3|{chat_id}"),
-            InlineKeyboardButton(text="> 10", callback_data=f"ADMIN 2|{chat_id}"),
-            InlineKeyboardButton(text=">> 30", callback_data=f"ADMIN 4|{chat_id}"),             
+            InlineKeyboardButton(text="𝐍𝐞𝐭𝐰𝐨𝐫𝐤", url=f"https://t.me/Team_Hypers_Networks"),
+            InlineKeyboardButton(text="𝐎𝐰𝐧𝐞𝐫", url=f"https://t.me/Idhayann"),             
         ],         
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
     ]
